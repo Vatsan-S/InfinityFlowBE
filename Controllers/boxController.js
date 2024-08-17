@@ -338,6 +338,7 @@ export const editTask = async (req, res) => {
       priority,
       taskID,
       boxID,
+      searchTerm
     } = req.body;
 
     const data = {};
